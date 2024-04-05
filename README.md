@@ -33,6 +33,9 @@ The code implements and evaluates a comprehensive set of individual adversarial 
 - **DIFGSM (Diverse Input Fast Gradient Sign Method)**: An extension of FGSM that applies diverse transformations to the input.
 - **Jitter**: An attack that applies random jitter to the input.
 
+## Results
+!["Results"](https://github.com/ericyoc/cnn_hnn_comparison_analysis/blob/main/adv_attack_results/results_output.jpg)
+
 ## White-box, Targetted Compound Adversarial Attacks
 
 In addition to individual adversarial attacks, the code generates white-box, targeted compound attacks by combining multiple individual attack methods. These compound attacks are created by iteratively applying one attack method followed by another, forming a sequence of perturbations that can potentially bypass the defenses of the target model.
