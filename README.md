@@ -56,7 +56,11 @@ Measuring the accuracy and loss for both models is crucial because the HNN incor
 
 Additionally, the code provides a function to visualize a sample of misclassified images, displaying the original image, the true label, and the predictions made by both the CNN and HNN models. This visual inspection can provide valuable insights into the types of adversarial examples that successfully fooled the models and can aid in understanding the strengths and weaknesses of each approach.
 
+**CNN Model**
 !["CNN Pre-attack and Post Attack Accuracy Results"](https://github.com/ericyoc/cnn_hnn_comparison_analysis/blob/main/adv_attack_results/cnn_comparison_analysis.jpg)
+
+**HNN Model**
+!["HNN Pre-attack and Post Attack Accuracy Results"](https://github.com/ericyoc/cnn_hnn_comparison_analysis/blob/main/adv_attack_results/hnn_comparison_analysis.jpg)
 
 ## MNIST Dataset Preprocessing
 
@@ -104,11 +108,3 @@ To run this code, you'll need the following dependencies:
 - Matplotlib
 - Tabulate
 
-## Usage
-
-1. Clone the repository and navigate to the project directory.
-2. Install the required dependencies.
-3. Run the `main.py` script to train the CNN and HNN models, evaluate their performance against various attacks, and visualize the results.
-
-```bash
-python main.py
