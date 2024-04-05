@@ -30,14 +30,7 @@ The code implements and evaluates a comprehensive set of individual adversarial 
 - **TPGD (Tamed Projected Gradient Descent)**: A variant of PGD that applies a taming function to the gradients.
 - **EOTPGD (Expectation Over Transformation Projected Gradient Descent)**: An extension of TPGD that incorporates random transformations.
 - **APGD (Autoregressive Projected Gradient Descent)**: An iterative attack that adjusts the perturbation based on the current prediction and a target class.
-- **APGDT (Autoregressive Projected Gradient Descent with Target)**: A variant of APGD that explicitly targets a specific class.
-- **DeepFool (L2)**: An iterative attack that finds the closest decision boundary and perturbs the input across it.
 - **DIFGSM (Diverse Input Fast Gradient Sign Method)**: An extension of FGSM that applies diverse transformations to the input.
-- **TIFGSM (Translation-Invariant Fast Gradient Sign Method)**: An extension of FGSM that applies random translations to the input.
-- **NIFGSM (Normalized Iterative Fast Gradient Sign Method)**: An iterative attack that normalizes the gradients.
-- **SINIFGSM (Scaled-Invariant Normalized Iterative Fast Gradient Sign Method)**: A variant of NIFGSM that incorporates scale-invariance.
-- **VMIFGSM (Variance-Minimizing Iterative Fast Gradient Sign Method)**: An iterative attack that minimizes the variance of the gradient.
-- **VNIFGSM (Variance-Normalized Iterative Fast Gradient Sign Method)**: A variant of VMIFGSM that incorporates gradient normalization.
 - **Jitter**: An attack that applies random jitter to the input.
 
 ## White-box, Targetted Compound Adversarial Attacks
