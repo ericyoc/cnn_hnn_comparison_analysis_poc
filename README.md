@@ -2,6 +2,9 @@
 
 This repository provides an implementation of a representative Convolutional Neural Network (CNN) as a Classical Neural Network and a Quantum-Classical or Hybrid Neural Network (HNN) for the classification of handwritten digits from the MNIST dataset. The primary objective is to evaluate the adversarial robustness of these models against a comprehensive set of adversarial attacks, including compound attacks formed by combining multiple individual attack methods. The HNN model combines a classical CNN with a parameterized quantum circuit, leveraging potential advantages of quantum computing.
 
+## Motivating Article
+Huang, S. Y., An, W. J., Zhang, D. S., & Zhou, N. R. (2023, April). Image classification and adversarial robustness analysis based on hybrid quantum–classical convolutional neural network. Optics Communications, 533, 129287. https://doi.org/10.1016/j.optcom.2023.129287
+
 ## Overview
 
 The code includes the following key components:
