@@ -5,7 +5,7 @@ This repository provides an implementation of a representative Convolutional Neu
 ## Motivating Article
 Huang, S. Y., An, W. J., Zhang, D. S., & Zhou, N. R. (2023, April). Image classification and adversarial robustness analysis based on hybrid quantum–classical convolutional neural network. Optics Communications, 533, 129287. https://doi.org/10.1016/j.optcom.2023.129287
 
-## Adversartial Attacks on Classical and Quantum-Classical (or Hybrid) Neural Network Models
+## Implementation Overview
 
 The code includes the following key components:
 
