@@ -117,3 +117,5 @@ To run this code, you'll need the following dependencies:
 - Matplotlib
 - Tabulate
 
+**Disclaimer**
+This repository is intended for educational and research purposes.
